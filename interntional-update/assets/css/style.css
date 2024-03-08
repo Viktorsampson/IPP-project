@@ -176,6 +176,23 @@ header .container .col-md-11 p {
   font-size: 18px !important;
   font-weight: 400 !important;
 }
+
+.overview_image{
+  padding: 20px 0;
+}
+
+.aboutBox{
+  border: 2px solid whitesmoke;
+  box-shadow: 2px 3px 2p lightgray;
+  padding: 20px 10px;
+  width: 100%;
+}
+
+.about_text{
+  padding: 20px 10px;
+
+}
+
 .about-details {
   margin-top: -25vmin;
 }
