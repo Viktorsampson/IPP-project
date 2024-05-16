@@ -1186,13 +1186,14 @@ button.fl-item{
   /* background-color: #f1f1f1; */
   /* padding: 30px; */
   text-align: center;
-  height: 40vh;
+  height: 45vh;
   overflow: hidden;
 }
 .newImage{
   height: 100%;
   width: 100%;
   object-fit: cover;
+  object-position: center top;
 }
 
 #Newnavbar {
