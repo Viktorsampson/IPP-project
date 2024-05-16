@@ -1,3 +1,21 @@
+// document.addEventListener('DOMContentLoaded', function(){
+//   window.addEventListener('scroll', stickyFunction)
+
+//   function stickyFunction() {
+//     var navbar = document.getElementById("Newnavbar");
+//     if (navbar) { // Check if element exists before accessing properties
+//       var sticky = navbar.offsetTop;
+//       if (window.scrollY >= sticky) {
+//         navbar.classList.add("sticky")
+//       } else {
+//         navbar.classList.remove("sticky");
+//       }
+//     }
+//   }
+// })
+
+
+
 const cards = document.querySelectorAll(".card");
 
 window.onload = function () {
@@ -32,6 +50,9 @@ cards.forEach((card) => {
   });
 });
 
+
+
+
 $(document).ready(function () {
   $(".testimonial-content").owlCarousel({
     loop: true,
@@ -54,22 +75,6 @@ $(document).ready(function () {
   });
 });
 
-var navbar = document.getElementById("navbar");
-var menu = document.getElementById("navbar-nav");
-
-window.onscroll = function () {
-  if (window.pageYOffset >= menu.offsetTop) {
-    navbar.classList.add("sticky");
-  } else {
-    navbar.classList.remove("sticky");
-  }
-
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-};
 
 //Get the button
 let mybutton = document.getElementById("btn-back-to-top");
