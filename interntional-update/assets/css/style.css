@@ -161,8 +161,27 @@ header .container .col-md-11 p {
 }
 
 .overview_image{
-  padding: 20px 0;
   width: 100%
+}
+.weo-section .Newcontainer{
+  /* text-align: center; */
+  position: relative;
+  height: 70vh;
+}
+.overview{
+  background-color: orange;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.overview h3{
+  /* font-size: 45px; */
+  width: 100%;
+  background-color: white;
+}
+.overview .heading{
+  font-size: 3rem;
 }
 
 .aboutBox{
@@ -192,8 +211,40 @@ header .container .col-md-11 p {
   box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.35);
 }
 .weo-section {
-  padding: 20vmin 0;
+  background-image: url("../img/bannerII.jpg");
+  position: relative;
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 425px;
+  padding: 63px 0;
+  color: white;
+  /* padding: 20vmin 0; */
   overflow-y: hidden;
+}
+.weo-section_main{
+  position: relative;
+  z-index: 1;
+}
+.no-pad{
+  padding-left: 0;
+  padding-right: 0;
+}
+.weo-section_heading{
+  font-family: "Danfo", serif;
+  font-size: 50px;
+  line-height: 69px;
+  letter-spacing: 0.6rem;
+  margin: 0;
+}
+.weo-btn{
+  font-size: 16px;
+}
+.weo-section_desc{
+  font-size: 21px;
+  line-height: 32px;
+  margin: 0;
+  padding: 21px 0;
 }
 .weo-section .row .col-md-6 .sub-sec img {
   height: 100vh;
@@ -255,6 +306,7 @@ header .container .col-md-11 p {
 }
 
 .heading{
+  font-family: "Danfo", serif;
   text-transform: uppercase;
   font-size: 3.5rem;
   letter-spacing: 3px;
@@ -1198,7 +1250,7 @@ button.fl-item{
 
 #Newnavbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #02396d;
   z-index: 1111;
 }
 
