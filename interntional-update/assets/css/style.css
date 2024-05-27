@@ -52,7 +52,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .nav-item{
     padding-bottom: 3px;
-    border-bottom: 3px solid rgb(87, 174, 236);
+    border-bottom: 3px solid #011529;
     transition: 0.3s;
 }
 .nav-item:hover{
@@ -72,9 +72,9 @@ h1,h2,h3,h4,h5,h6{
     height: 70px;
     width: 70px;
     border-radius: 50%;
-    background-color: rgb(87, 174, 236);
+    background-color: #010320;
     padding: 7px;
-    border: 3px solid white;
+    border: 3px solid red;
     /* color: white; */
 }
 
@@ -100,7 +100,7 @@ h1,h2,h3,h4,h5,h6{
 
 .main-title-container{
     text-transform: capitalize;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     color: white;
     max-width: 700px;
     float: right;
@@ -111,9 +111,9 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .main-title-container button{
-    background-color: rgb(87, 174, 236);
+    background-color: #010320;
     color: white;
-    border: 1px solid white;
+    border: 1px solid red;
     font-size: 2rem;
     padding: 10px 20px;
     border-radius: 5px;
@@ -153,7 +153,7 @@ h1,h2,h3,h4,h5,h6{
     display: flex;
     gap: 1rem;
     overflow: hidden;
-    background-color: rgb(87, 174, 236);
+    background-color: #010320;
     padding: 1.4rem 1rem;
     color: white;
     border-bottom: 2px solid black;
@@ -210,7 +210,7 @@ h1,h2,h3,h4,h5,h6{
 .info-row .text-container h2{
     font-size: 40px;
     letter-spacing: 2px;
-    border-bottom: 5px solid rgb(87, 174, 236);
+    border-bottom: 5px solid #010320;
     transition: 0.3s;
 }
 .info-row .text-container h2:hover{
